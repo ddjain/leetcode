@@ -14,7 +14,7 @@ public class longestPalindrom {
            }
 
        }
-        System.out.println(str.substring(start, end + 1));
+        System.out.println();
     }
     public static int getStringFromMiddle(String s, int left, int right){
         while (left>=0 && right<s.length() && s.charAt(left)==s.charAt(right)){
